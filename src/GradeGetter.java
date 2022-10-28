@@ -15,5 +15,6 @@ public class GradeGetter {
         } else if (score < 60) {
             return "F";
         }
+        return "";
     }
 }
